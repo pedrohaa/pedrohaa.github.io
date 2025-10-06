@@ -6,8 +6,8 @@ $(document).ready(function(){
             darkMode();
         }
     }
-    var user = "pedro.azevedodeamorim";
-    var domain = "cs.ox.ac.uk";
+    var user = "phaa20";
+    var domain = "bath.ac.uk";
     
     var em = user + "@" + domain;
     //console.log(em);
@@ -43,8 +43,6 @@ var black = "#000000";
 var zenburnBlue = "#8CD0D3";
 
 function darkMode() {
-
-    console.log(window.matchMedia('(prefers-color-scheme:dark)'));
     
     //Switch font color
     var paragraph = document.getElementsByTagName("p");
